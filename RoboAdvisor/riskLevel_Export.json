@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "Investment risk level",
+    "name": "riskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "Maximum"
+        ]
+      },
+      {
+        "value": "Very high",
+        "synonyms": [
+          "Very high"
+        ]
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "Minimal"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "Medium"
+        ]
+      },
+      {
+        "value": "Very low",
+        "synonyms": [
+          "Very low"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "None"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
